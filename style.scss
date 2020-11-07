@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #22195b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    align-items: center;
+    .container {
+        max-width: 1050px;
+        width: 100%;
+        height: 80px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu {
+        font-family: 'Rajdhani', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        a {
+            color: white;
+            padding: 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+    }
+}
+
+.btn {
+    padding: 12px 40px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    &:hover {
+        background-color: transparent;
+        border: 1px solid #fff;
+    }
+}
+
+main {
+    margin-top: 80px;
+    .banner {
+        background-color: #22195b;
+    }
+    .container {
+        max-width: 1050px;
+        display: flex;
+        padding-top: 200px;
+        padding-left: 150px;
+        padding-bottom: 240px;
+        img {
+            width: 50%;
+        }
+        .get-started {
+            font-family: 'Rajdhani', sans-serif;
+            width: 50%;
+            font-size: 15px;
+            padding-left: 50px;
+            padding-top: 30px;
+            color: white;
+            h1 {
+                font-size: 50px;
+            }
+        }
+    }
+    .banner2 {
+        margin: 250px;
+        max-width: 1050px;
+        .containers {
+            font-family: 'Rajdhani', sans-serif;
+            max-width: 1050px;
+            height: 800px;
+            font-size: 18px;
+            .soft {
+                padding: 0 25%;
+                max-width: 630px;
+                width: 500px;
+                text-align: center;
+            }
+            .cards {
+                height: 500px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(3, 200px);
+                .card1 {
+                    &:hover {
+                        background-color: #fff;
+                        box-shadow: 5px solid gray;
+                    }
+                    padding: 0 15px;
+                    width: 250px;
+                    height: 180px;
+                    background: #f8f9fa;
+                    p {
+                        color: #797979;
+                    }
+                }
+                .card2 {
+                    padding: 0 15px;
+                    width: 250px;
+                    height: 180px;
+                    background: #f8f9fa;
+                    p {
+                        color: #797979;
+                    }
+                }
+                .card3 {
+                    padding: 0 15px;
+                    width: 250px;
+                    height: 180px;
+                    background: #f8f9fa;
+                    p {
+                        color: #797979;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #22195b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    align-items: center;
+}
+
+header .container {
+    max-width: 1050px;
+    width: 100%;
+    height: 80px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+header .menu {
+    font-family: 'Rajdhani', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+header .menu a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.btn {
+    padding: 12px 40px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid transparent;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+main {
+    margin-top: 80px;
+}
+
+main .banner {
+    background-color: #22195b;
+}
+
+main .container {
+    max-width: 1050px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 200px;
+    padding-left: 150px;
+    padding-bottom: 240px;
+}
+
+main .container img {
+    width: 50%;
+}
+
+main .container .get-started {
+    font-family: 'Rajdhani', sans-serif;
+    width: 50%;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-top: 30px;
+    color: white;
+}
+
+main .container .get-started h1 {
+    font-size: 50px;
+}
+
+main .banner2 {
+    margin: 250px;
+    max-width: 1050px;
+}
+
+main .banner2 .containers {
+    font-family: 'Rajdhani', sans-serif;
+    max-width: 1050px;
+    height: 800px;
+    font-size: 18px;
+}
+
+main .banner2 .containers .soft {
+    padding: 0 25%;
+    max-width: 630px;
+    width: 500px;
+    text-align: center;
+}
+
+main .banner2 .containers .cards {
+    height: 500px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+    -ms-grid-rows: (200px)[3];
+    grid-template-rows: repeat(3, 200px);
+}
+
+main .banner2 .containers .cards .card1 {
+    padding: 0 15px;
+    width: 250px;
+    height: 180px;
+    background: #f8f9fa;
+}
+
+main .banner2 .containers .cards .card1:hover {
+    background-color: #fff;
+    -webkit-box-shadow: 5px solid gray;
+    box-shadow: 5px solid gray;
+}
+
+main .banner2 .containers .cards .card1 p {
+    color: #797979;
+}
+
+main .banner2 .containers .cards .card2 {
+    padding: 0 15px;
+    width: 250px;
+    height: 180px;
+    background: #f8f9fa;
+}
+
+main .banner2 .containers .cards .card2 p {
+    color: #797979;
+}
+
+main .banner2 .containers .cards .card3 {
+    padding: 0 15px;
+    width: 250px;
+    height: 180px;
+    background: #f8f9fa;
+}
+
+main .banner2 .containers .cards .card3 p {
+    color: #797979;
+}
+
+
+/*# sourceMappingURL=style.css.map */
