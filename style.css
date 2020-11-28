@@ -1,323 +1,432 @@
 body {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 header {
-  background-color: #22195b;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  align-items: center;
+    background-color: #22195b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    align-items: center;
 }
 
 header .container {
-  max-width: 1050px;
-  width: 100%;
-  height: 80px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+    max-width: 1050px;
+    width: 100%;
+    height: 80px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 header .menu {
-  font-family: 'Rajdhani', sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  justify-items: center;
+    font-family: 'Rajdhani', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-items: center;
 }
 
 header .menu a {
-  color: white;
-  padding: 20px;
-  text-decoration: none;
-  font-size: 18px;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .btn {
-  padding: 12px 40px;
-  background-color: white;
-  border-radius: 30px;
-  border: 1px solid transparent;
+    padding: 12px 40px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid transparent;
 }
 
 .btn:hover {
-  background-color: transparent;
-  border: 1px solid #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #ffffff;
 }
 
 .btn.btn-primary {
-  padding: 15px 50px;
-  background-color: white;
-  border-radius: 30px;
-  border: 1px solid #22195b;
+    padding: 15px 50px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid #22195b;
 }
 
 .btn.btn-primary:hover {
-  background-color: #22195b;
-  border: 1px solid #ffffff;
+    background-color: #22195b;
+    border: 1px solid #ffffff;
+    color: #ffffff;
 }
 
 main {
-  margin-top: 80px;
+    margin-top: 80px;
 }
 
 main .banner {
-  background-color: #22195b;
+    background-color: #22195b;
 }
 
 main .container {
-  max-width: 1050px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 200px;
-  padding-left: 150px;
-  padding-bottom: 240px;
+    max-width: 1050px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 200px;
+    padding-left: 150px;
+    padding-bottom: 240px;
 }
 
 main .container img {
-  width: 50%;
+    width: 50%;
 }
 
 main .container .get-started {
-  font-family: 'Rajdhani', sans-serif;
-  width: 50%;
-  font-size: 15px;
-  padding-left: 50px;
-  padding-top: 30px;
-  color: white;
+    font-family: 'Rajdhani', sans-serif;
+    width: 50%;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-top: 30px;
+    color: white;
 }
 
 main .container .get-started h1 {
-  font-size: 50px;
+    font-size: 50px;
 }
 
 main .banner2 {
-  margin: 150px 25%;
-  max-width: 1050px;
+    margin: 150px 25%;
+    max-width: 1050px;
 }
 
 main .banner2 .containers {
-  font-family: 'Rajdhani', sans-serif;
-  max-width: 1050px;
-  height: 400px;
-  font-size: 18px;
+    font-family: 'Rajdhani', sans-serif;
+    max-width: 1050px;
+    height: 400px;
+    font-size: 18px;
 }
 
 main .banner2 .containers .soft {
-  padding: 0 25%;
-  max-width: 630px;
-  width: 800px;
-  text-align: center;
+    padding: 0 25%;
+    max-width: 630px;
+    width: 800px;
+    text-align: center;
 }
 
 main .banner2 .containers .soft p {
-  color: #797979;
+    color: #797979;
 }
 
 main .banner2 .containers .cards {
-  padding-top: 25px;
-  height: 500px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  -ms-grid-rows: (200px)[3];
-      grid-template-rows: repeat(3, 200px);
-  grid-gap: 25px;
+    padding-top: 25px;
+    height: 500px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+    -ms-grid-rows: (200px)[3];
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 25px;
 }
 
 main .banner2 .containers .cards .card {
-  padding: 0 15px;
-  width: 250px;
-  height: 180px;
-  background: #f8f9fa;
+    padding: 0 15px;
+    width: 250px;
+    height: 180px;
+    background: #f8f9fa;
 }
 
 main .banner2 .containers .cards .card:hover {
-  background-color: #ffffff;
-  -webkit-box-shadow: 5px solid gray;
-          box-shadow: 5px solid gray;
+    background-color: #ffffff;
+    -webkit-box-shadow: 5px solid gray;
+    box-shadow: 5px solid gray;
 }
 
 main .banner2 .containers .cards .card p {
-  color: #797979;
+    color: #797979;
 }
 
 main .banner3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background: #faf9ff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #faf9ff;
 }
 
 main .banner3 .banner-container {
-  max-width: 1200px;
-  height: 380px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+    max-width: 1200px;
+    height: 380px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 main .banner3 .banner-container .container-text {
-  width: 463px;
-  height: 300px;
-  font-family: 'Rajdhani', sans-serif;
+    width: 463px;
+    height: 300px;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 main .banner3 .banner-container .container-text h1 {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 main .banner3 .banner-container .container-text p {
-  font-size: 20px;
-  color: #797979;
+    font-size: 20px;
+    color: #797979;
 }
 
 main .banner4 {
-  padding: 0 25%;
-  padding-bottom: 50px;
+    padding: 0 25%;
+    padding-bottom: 50px;
 }
 
 main .banner4 .feature-container {
-  font-family: 'Rajdhani', sans-serif;
-  width: 1050px;
+    font-family: 'Rajdhani', sans-serif;
+    width: 1050px;
 }
 
 main .banner4 .feature-container .feature-text {
-  padding: 150px 25%;
-  text-align: center;
-  max-width: 800px;
+    padding: 150px 25%;
+    text-align: center;
+    max-width: 800px;
 }
 
 main .banner4 .feature-container .feature-text h1 {
-  font-size: 35px;
-  color: #3a414e;
+    font-size: 35px;
+    color: #3a414e;
 }
 
 main .banner4 .feature-container .feature-text p {
-  font-size: 18px;
-  color: #797979;
+    font-size: 18px;
+    color: #797979;
 }
 
 main .banner4 .feature-container .feature-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 main .banner4 .feature-container .feature-cards {
-  width: 600px;
-  grid-gap: 30px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  text-align: center;
-  padding-right: 45px;
+    width: 600px;
+    grid-gap: 30px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    padding-right: 45px;
 }
 
 main .banner4 .feature-container .feature-cards .card {
-  padding: 20px 20px;
-  width: 250px;
-  height: 180px;
-  background: #f8f9fa;
+    padding: 20px 20px;
+    width: 250px;
+    height: 180px;
+    background: #f8f9fa;
 }
 
 main .banner4 .feature-container .feature-cards .card:hover {
-  background-color: #ffffff;
-  -webkit-box-shadow: 5px solid gray;
-          box-shadow: 5px solid gray;
+    background-color: #ffffff;
+    -webkit-box-shadow: 5px solid gray;
+    box-shadow: 5px solid gray;
 }
 
 main .banner4 .feature-container .feature-cards .card:nth-of-type(even) {
-  margin-top: 40px;
+    margin-top: 40px;
 }
 
 main .banner4 .feature-container .feature-cards .card p {
-  color: #797979;
-  font-size: 20px;
+    color: #797979;
+    font-size: 20px;
 }
 
 main .banner4 .feature-container .feature-cards h4 {
-  font-size: 20px;
-  color: #3a414e;
+    font-size: 20px;
+    color: #3a414e;
 }
 
 main .banner5 {
-  background-color: #faf9ff;
+    background-color: #faf9ff;
 }
 
 main .banner5 .simple-container {
-  padding: 100px 150px;
-  max-width: 1200px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+    padding: 100px 150px;
+    max-width: 1200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 main .banner5 .simple-container .simple-text {
-  padding-left: 150px;
-  font-family: 'Rajdhani', sans-serif;
+    padding-left: 150px;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 main .banner5 .simple-container .simple-text h1 {
-  font-size: 35px;
-  color: #3a414e;
+    font-size: 35px;
+    color: #3a414e;
 }
 
 main .banner5 .simple-container .simple-text p {
-  font-size: 18px;
-  color: #797979;
+    font-size: 18px;
+    color: #797979;
 }
 
 main .banner6 .plan-container {
-  max-width: 1050px;
+    max-width: 1050px;
 }
 
 main .banner6 .plan-container .plan-text {
-  padding: 0 50%;
-  font-family: 'Rajdhani', sans-serif;
-  text-align: center;
-  width: 700px;
+    padding: 0 50%;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    width: 700px;
 }
 
 main .banner6 .plan-container .plan-text h3 {
-  font-size: 35px;
-  color: #3a414e;
+    font-size: 35px;
+    color: #3a414e;
 }
 
 main .banner6 .plan-container .plan-text p {
-  color: #797979;
-  font-size: 18px;
+    color: #797979;
+    font-size: 18px;
 }
+
+main .banner6 .plan-container .plan-cards {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin-left: 30%;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+main .banner6 .plan-container .plan-cards .card {
+    background-color: #faf9ff;
+    width: 350px;
+    height: 650px;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+}
+
+main .banner6 .plan-container .plan-cards .card:hover {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 2px 15px 2px #797979;
+    box-shadow: 0px 2px 15px 2px #797979;
+}
+
+main .banner6 .plan-container .plan-cards .card h4 {
+    font-size: 30px;
+    margin-bottom: 0;
+    color: #3a414e;
+}
+
+main .banner6 .plan-container .plan-cards .card p {
+    font-size: 20px;
+    margin: 0;
+    padding: 15px 0;
+    color: #797979;
+}
+
+main .banner6 .plan-container .plan-cards .card .price {
+    font-size: 50px;
+    color: #3a414e;
+}
+
+main .banner6 .plan-container .plan-cards .card .pricing-list {
+    border-top: 1px solid #797979;
+    border-bottom: 1px solid #797979;
+    margin-bottom: 15px;
+}
+
+main .banner7 {
+    background-color: #faf9ff;
+    padding-bottom: 100px;
+}
+
+main .banner7 .client-say {
+    padding-top: 150px;
+    text-align: center;
+    max-width: 700px;
+    font-family: 'Rajdhani', sans-serif;
+    padding-left: 30%;
+    padding-bottom: 100px;
+}
+
+main .banner7 .client-say h4 {
+    font-size: 35px;
+    color: #3a414e;
+    margin: 0;
+}
+
+main .banner7 .client-say p {
+    font-size: 18px;
+    color: #797979;
+    margin: 0;
+    padding-top: 20px;
+}
+
+main .banner7 .stephen {
+    background-color: #ffffff;
+    max-width: 1050px;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    margin-left: 20%;
+    margin-bottom: 100px;
+}
+
+main .banner7 .stephen h3 {
+    font-size: 25px;
+    color: #3a414e;
+    margin: 0;
+}
+
+main .banner7 .stephen p {
+    font-size: 18px;
+    color: #797979;
+    margin-top: 0;
+}
+
+main .banner8 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+
 /*# sourceMappingURL=style.css.map */
