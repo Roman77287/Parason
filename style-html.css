@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body header {
+  background-color: gray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  align-items: center;
+}
+
+body header .menu {
+  max-width: 1500px;
+  width: 100%;
+  height: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header .menu img {
+  height: 100px;
+}
+
+body header .menu-btn {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+body header .menu-btn a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+body .banner1 {
+  margin-top: 150px;
+  font-family: 'Lato', sans-serif;
+}
+
+body .banner1 .start-h1 {
+  text-align: center;
+}
+
+body .banner1 .cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  margin-left: 10%;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+body .banner1 .cards .card {
+  width: 250px;
+  font-size: 20px;
+}
+
+body .banner1 .cards .card img {
+  height: 150px;
+}
+
+body .banner1 .btn {
+  margin-left: 40%;
+  padding: 10px 100px;
+  background-color: grey;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+
+body .banner1 .btn:hover {
+  background-color: wheat;
+  border: 1px solid black;
+  color: black;
+}
+
+body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 1050px;
+  border-top: 1px solid #000;
+  margin-top: 150px;
+  margin-left: 20%;
+}
+
+body footer a {
+  padding-top: 10px;
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+/*# sourceMappingURL=style-html.css.map */

@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body header {
+  background-color: gray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  align-items: center;
+}
+
+body header .menu {
+  max-width: 1500px;
+  width: 100%;
+  height: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header .menu img {
+  height: 100px;
+}
+
+body header .menu-btn {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+body header .menu-btn a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+body .banner1 {
+  margin-top: 150px;
+  font-family: 'Lato', sans-serif;
+}
+
+body .banner1 .start-h1 {
+  text-align: center;
+}
+
+body .banner1 .video-banner {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .banner1 .banner-text {
+  max-width: 1050px;
+  width: 700px;
+  font-size: 18px;
+  margin-left: 30%;
+  margin-top: 100px;
+}
+
+body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 1050px;
+  border-top: 1px solid #000;
+  margin-top: 150px;
+  margin-left: 20%;
+}
+
+body footer a {
+  padding-top: 10px;
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+/*# sourceMappingURL=style-gallery.css.map */
